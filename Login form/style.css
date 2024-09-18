@@ -24,16 +24,17 @@ body{
     padding:  0 0 20px 0;
     border-bottom: 1px solid silver;
 }
-.center form{
+ .center form{
     padding:  0 40px;
     box-sizing: border-box;
 }
-form .txt_field{
+  form .txt_field{ 
     position: relative;
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
 }
-.txt_field input{
+      
+/* .txt_field input{
     width: 100%;
     padding: 0 5px;
     height: 40px;
@@ -42,8 +43,8 @@ form .txt_field{
     background: none;
     outline: none;
 
-}
-.txt_field label{
+} */
+ .txt_field label{
     position: absolute;
     top: 50%;
     left: 5px;
@@ -52,8 +53,8 @@ form .txt_field{
     font-size: 16px;
     pointer-events: none;
     transition: .5s;
-}
-.txt_field span::before{
+} */
+/* .txt_field span::before{
     content: '';
     position: absolute;
     top:40px;
@@ -109,4 +110,4 @@ input[type="submit"]:hover{
 }
 .signup_link a:hover{
     text-decoration: underline;
-}
+}  */ */
