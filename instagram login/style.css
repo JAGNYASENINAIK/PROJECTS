@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #daa8a8;
+}
+.all{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: aliceblue;
+    width: 400px;
+    height: 200px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.another{
+    background-color: #d98b8b;
+    height: 50px;
+}
+.center h1{
+    font-style:sans-serif-billabong
+    ;
+}
