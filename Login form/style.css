@@ -92,9 +92,9 @@ input[type="submit"]{
     cursor: pointer;
     outline: none;
     margin: 0px 0px 9px 0px;
-}
+/* }
 input[type="submit"]:hover{
-    border-color: #2691d9;
+    border-color: #2691d9; */
     transition: .5s;
 }
 .signup_link{
