@@ -1,0 +1,15 @@
+a{
+  text-decoration:none;
+}
+a:hover{
+  color:brown;
+}
+a:visited{
+  color:green;
+}
+a:focus{
+  outline:5px solid black;
+}
+a:active{
+  color:magenta;
+}
