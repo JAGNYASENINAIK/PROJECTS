@@ -73,9 +73,13 @@ section {
   background-color: whitesmoke;
   padding: 20px;
   border-radius: 10px;
+  display:none;
 }
 
 section:hover{
   transform: skewX(10deg);
 }
 
+section:target{
+  display:block;
+}
