@@ -12,7 +12,7 @@
   padding:4px;
   margin-left:80px;
   margin-top:30px;
-  border:solid red;
+  border: 5px solid red;
   transform:rotate(20deg);
   width:200px;
   color:red;
@@ -28,7 +28,7 @@
 padding:4px;
   margin-left:100px;
   margin-top:10px;
-  border:solid red;
+  border:5px solid red;
   transform:rotate(-20deg);
   width:250px;
   color:red;
