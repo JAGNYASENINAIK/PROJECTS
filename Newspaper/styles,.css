@@ -17,3 +17,32 @@ html {
   margin-bottom: 10px;
 }
 
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.sub-headline {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
