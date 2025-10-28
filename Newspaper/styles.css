@@ -1,76 +1,43 @@
-html {
-  font-size: 18px;
-  background-color: #f9f7f4;
-  color: #222;
+html{
+  font-size:24px;
+  
 }
-
-.newspaper {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 40px;
-  background: #fff;
-  font-size: 1rem;
-  font-family: 'Georgia', serif;
-  line-height: 1.8;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
+body{
+  background-color:#EDE6D1;
 }
-
-.name {
-  font-size: 2.5rem;
-  font-family: 'Times New Roman', Times, serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-align: center;
-  margin-bottom: 10px;
-  color: #111;
+.newspaper{
+  font-size:16px; background-color:#f944;
+  width:100%;
+  height:100%;
+  font-family:Open Sans,sans-serif;
 }
+.name{
+  font-size:2rem;
+  font-family:'Times New Roman', serif;
+  text-transform:uppercase;
 
-.date {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #777;
-  margin-bottom: 30px;
 }
-
-.headline {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 10px;
-  color: #111;
+.author{
+  text-transform:uppercase;
 }
+.headline{
+  font-size:2em;
+  font-weight:bold;
 
-.sub-headline {
-  font-weight: 300;
-  font-size: 1.3rem;
-  font-style: italic;
-  color: #555;
-  margin-bottom: 25px;
 }
-
-.author {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.9rem;
-  color: #444;
-  margin-bottom: 25px;
+.sub-headline{
+  font-weight:100;
+  font-size:1.5em;
+  font-style:italic;
 }
-
-.text {
-  text-indent: 2em;
-  line-height: 1.9;
-  margin-bottom: 1.2em;
-  color: #333;
+ .author{
+   font-weight:bold;
+ }
+.text{
+  text-indent:20px;
+  line-height:2em;
 }
-
-.text::first-letter {
-  font-weight: 700;
-  font-size: 2.5rem;
-  float: left;
-  line-height: 1;
-  margin-right: 8px;
-  color: #111;
+.text::first-letter{
+  font-weight:bold;
+  font-size:2em;
 }
-
